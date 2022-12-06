@@ -27,15 +27,12 @@ help_dict = {
 def stacks(values_to_move, from_,  to_):
 
     move = help_dict[from_][-values_to_move:]
-    move.reverse()
+    #move.reverse()
     for val in move:
         help_dict[to_].append(val)
-    
     help_dict[from_] = help_dict[from_][:-values_to_move]
 
     
-
-
 def main():
     holder_list =[]
     
