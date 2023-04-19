@@ -1,1 +1,1 @@
-# Advent_of_coding_2022
+# Advent of coding 2022
